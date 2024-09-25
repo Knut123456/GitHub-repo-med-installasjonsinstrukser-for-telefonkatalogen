@@ -11,6 +11,18 @@
     sånn skal det se ut
     7. trykk på next så vil det komme en pop up at du skal slette det som er der klikk på yes
     8. ta inn sim kortet i rasbery pien
-    9.  plugg inn ledningene og skrue på rasberry pi 
-    10. etter at du har logget på 
+    9.  plugg inn ledningene og skru på rasberry pi 
     
+#
+2. upgradere pcen
+    1. skriv inn dette
+    ```shell
+    sudo apt update
+    sudo apt upgrade
+    ```
+    vis dette ikke fungere 
+    se om du har nett
+    skjekk ip addresse
+3.
+    ```shell 
+    sudo apt ufw```
