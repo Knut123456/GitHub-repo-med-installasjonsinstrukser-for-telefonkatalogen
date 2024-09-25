@@ -15,6 +15,7 @@
     
 #
 2. upgradere pcen
+    1. søk på terminalen 
     1. skriv inn dette
     ```shell
     sudo apt update
@@ -25,4 +26,8 @@
     skjekk ip addresse
 3.
     ```shell 
-    sudo apt ufw```
+    sudo apt ufw
+    sudo apt ufw enable
+    sudo ufw allow ssh
+    sudo ufw status
+    ```
