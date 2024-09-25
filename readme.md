@@ -34,7 +34,7 @@
 3.
     ```shell 
     sudo apt install ufw
-    sudo apt ufw enable ()
+    sudo ufw enable 
     sudo ufw allow ssh
     ufw status
     ```
