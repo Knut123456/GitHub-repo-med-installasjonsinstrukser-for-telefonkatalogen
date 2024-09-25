@@ -15,7 +15,7 @@
     
 #
 2. upgradere pcen
-    1. søk på terminalen 
+    1. søk på terminalen og åpne
     1. skriv inn dette
     ```shell
     sudo apt update
@@ -23,11 +23,18 @@
     ```
     vis dette ikke fungere 
     se om du har nett
-    skjekk ip addresse
+    
+    hvis du har nett skjekk om du har ip adresse på terminal
+    ```shell 
+    inet
+    ```
+
+
+
 3.
     ```shell 
-    sudo apt ufw
-    sudo apt ufw enable
+    sudo apt install ufw
+    sudo apt ufw enable ()
     sudo ufw allow ssh
-    sudo ufw status
+    ufw status
     ```
