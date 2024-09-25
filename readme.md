@@ -36,5 +36,5 @@
     sudo apt install ufw
     sudo ufw enable 
     sudo ufw allow ssh
-    ufw status
+    sudo ufw status
     ```
