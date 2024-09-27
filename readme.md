@@ -26,8 +26,9 @@
     
     hvis du har nett skjekk om du har ip adresse på terminal
     ```shell 
-    inet
+    ip a 
     ```
+    let etter inet
 
 
 
@@ -47,3 +48,8 @@
     b. sudo systemctl enable ssh (gjør sånn at SSH skrur seg på ved oppstart)
     c. sudo systemctl start ssh (starter SSH her og nå)
 ```
+
+ ```shell 
+    ip a 
+```
+    let etter inet
