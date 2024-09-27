@@ -63,10 +63,33 @@ let etter inet
 
 etter det må du skrive passord til pcen
 #
-6. Database maria db
+6. laste ned database maria db
     for å laste ned databasen mariadb
 
 ```shell 
     A. sudo apt install mariadb-serverd. (installere mariadb)
     B. sudo mysql_secure_installation  (gjør det mer secure)
+```
+
+7. Mariadb bruker
+
+for å log inn til mariadb
+
+``` shell
+sudo mariadb –u root
+```
+
+velg deg din egen navn og passord
+``` shell
+CREATE USER 'username'@'localhost' IDENTIFIED BY 'password';
+```
+gi dem alle privileges 
+``` shell
+GRANT ALL PRIVILEGES ON *.* TO 'username'@’localhost’IDENTIFIED BY 'password';
+```
+
+oppdatere privileges
+
+``` shell
+FLUSH PRIVILEGES;
 ```
