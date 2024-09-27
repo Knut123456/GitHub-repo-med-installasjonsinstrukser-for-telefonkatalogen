@@ -93,3 +93,18 @@ oppdatere privileges
 ``` shell
 FLUSH PRIVILEGES;
 ```
+#
+8. bruk python og sqp
+    på user og passord skriv ned rasberry pi user og passord.
+    host ip addressen til pien
+    database er telefonkatalog du kan endre vis du vil bruke noe annet
+
+    ``` shell
+    conn = mariadb.connect(
+        user = "",
+        password = "",
+        host = "",
+        database="telefonkatalog"
+    )
+    ```
+kopier sql kodene i     
