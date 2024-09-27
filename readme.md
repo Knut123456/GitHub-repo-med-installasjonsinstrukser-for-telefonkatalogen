@@ -67,8 +67,8 @@ etter det må du skrive passord til pcen
     for å laste ned databasen mariadb
 
 ```shell 
-    A. sudo apt install mariadb-serverd. (installere mariadb)
-    B. sudo mysql_secure_installation  (gjør det mer secure)
+    A. sudo apt install mariadb-server (installere mariadb)
+    B. sudo mysql_secure_installation  (laster ned kodespråk sql)
 ```
 
 7. Mariadb bruker
