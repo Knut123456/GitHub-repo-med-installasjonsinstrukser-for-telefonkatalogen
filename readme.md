@@ -41,15 +41,29 @@
     sudo ufw allow ssh
     sudo ufw status
 ```
-
+#
  4. SSH 
 ``` shell
     a. sudo apt install openssh-server (installerer SSH-serveren)
     b. sudo systemctl enable ssh (gjør sånn at SSH skrur seg på ved oppstart)
     c. sudo systemctl start ssh (starter SSH her og nå)
 ```
-
+#
+Finn din ip addresse for å kunne koble med ssh
  ```shell 
     ip a 
 ```
     let etter inet
+#
+5. vis du vil kan du koble til på din egen pc
+ ```shell 
+    ssh brukernavn@ip addresse
+```
+#
+6. Database maria db
+    for å laste ned databasen mariadb
+
+```shell 
+    A. sudo apt install mariadb-serverd. 
+    B. sudo mysql_secure_installation
+```
