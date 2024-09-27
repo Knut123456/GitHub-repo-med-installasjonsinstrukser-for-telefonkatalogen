@@ -107,4 +107,4 @@ FLUSH PRIVILEGES;
         database="telefonkatalog"
     )
     ```
-kopier sql kodene i     
+kopier sql kodene i mariadb på rasberry pien .    
