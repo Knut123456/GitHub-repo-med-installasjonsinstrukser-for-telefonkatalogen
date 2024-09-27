@@ -54,12 +54,14 @@ Finn din ip addresse for å kunne koble med ssh
     ip a 
 ```
 
-    let etter inet
+let etter inet
 #
 5. vis du vil kan du koble til på din egen pc
  ```shell 
     ssh brukernavn@ip addresse
 ```
+
+etter det må du skrive passord til pcen
 #
 6. Database maria db
     for å laste ned databasen mariadb
