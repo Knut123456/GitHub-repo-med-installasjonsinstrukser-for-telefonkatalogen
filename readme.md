@@ -53,6 +53,7 @@ Finn din ip addresse for å kunne koble med ssh
  ```shell 
     ip a 
 ```
+
     let etter inet
 #
 5. vis du vil kan du koble til på din egen pc
@@ -64,6 +65,6 @@ Finn din ip addresse for å kunne koble med ssh
     for å laste ned databasen mariadb
 
 ```shell 
-    A. sudo apt install mariadb-serverd. 
-    B. sudo mysql_secure_installation
+    A. sudo apt install mariadb-serverd. (installere mariadb)
+    B. sudo mysql_secure_installation  (gjør det mer secure)
 ```
