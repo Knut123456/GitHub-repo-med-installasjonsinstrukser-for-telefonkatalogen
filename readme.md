@@ -106,5 +106,7 @@ FLUSH PRIVILEGES;
         host = "",
         database="telefonkatalog"
     )
+
+    cursor = conn.cursor()
     ```
 kopier sql kodene i mariadb på rasberry pien .    
